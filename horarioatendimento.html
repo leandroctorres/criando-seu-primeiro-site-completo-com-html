@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+		<style>
+			table {
+				-webkit-box-shadow: 12px 14px 6px rgba(0,0,0,0.24);
+				box-shadow:12px 14px 6px 5px rgba(0,0,0,0.24);
+				border: solid 1px gray;
+			}
+			table tfoot td {
+				background-color: lightgray;
+			}
+			table tbody tr:nth-child(even) td {
+				background-color: #f1f1f1;
+			}
+			table tbody tr:hover td {
+				background-color: #E9E9E9;
+				cursor: pointer;
+			}
+
+		</style>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="template.html">Página Principal</a></li>
+								<li><a href="about.html">Sobre a Clínica</a></li>
+								<li><a href="horarioatendimento.html">Horário de Atendimento</a></li>
+								<li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+
+								<h1 align="center">Horario de Atendimento <img src="img/beauty.jpg" width=150px style="border-radius: 50%"> </h1>
+            </div>
+
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+
+								<p>Tratamentos</p>
+								<table width="400" align="center" cellspacing="0" cellpadding="5">
+									<tbody>
+										<tr>
+											<td>Depilação a Laser</td>
+											<td>08h - 19h</td>
+											<td>08h - 14h</td>
+											<td>100 R$</td>
+										</tr>
+
+										<tr>
+											<td>Aplicação de Botox</td>
+											<td>08h - 19h</td>
+											<td>08h - 14h</td>
+											<td>2000 R$</td>
+										</tr>
+
+										<tr>
+											<td>Drenagem Linfática</td>
+											<td>08h - 19h</td>
+											<td>08h - 14h</td>
+											<td>300 R$</td>
+										</tr>
+
+										<tr>
+											<td>Nutricionista</td>
+											<td>08h - 19h</td>
+											<td>08h - 14h</td>
+											<td>150 R$</td>
+										</tr>
+
+										<tr>
+											<td>Tricologista</td>
+											<td>08h - 19h</td>
+											<td>08h - 14h</td>
+											<td>200 R$</td>
+										</tr>
+
+									</tbody>
+
+									<thead>
+										<tr>
+											<th colspan="2">Tratamentos e Consultas</th>
+										</tr>
+										<tr>
+											<th title="Nome completo">Serviço</th>
+											<th>Segunda a Sexta</th>
+											<th>Sábados</th>
+											<th>Preço</th>
+										</tr>
+									</thead>
+
+								</table>
+
+            </div>
+
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+								<p align="center">Localização: Al. Campinas, 905 - Jd. Paulista – São Paulo</p>
+								<p align="center">Atendimento</p>
+								<p align="center">(11) 9.9495-4409</p>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
